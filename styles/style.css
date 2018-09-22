@@ -1,0 +1,502 @@
+body {
+	background-image: url("https://www.transparenttextures.com/patterns/cubes.png");
+	background-color: rgb(140,140,140);
+}
+
+h2{
+	width: 100%;
+	text-align: center;
+}
+
+header {
+	grid-column-start: 1;
+	grid-column-end: 4;
+	z-index: 1000;
+	height: 30vmin;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	background-image: url("http://www.effima-immobilier.com/z/webagency/A_ID3X/effimare_46742/images/homepage/homepage_scrolling_1.jpg");
+}
+
+header p{
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	vertical-align: middle;
+	color: #006370;
+	text-shadow: 5px 5px 9px rgb(140,140,140); 
+	font-family: Brush Script MT, Brush Script Std, cursive;
+	line-height: 12vmin;
+	font-size: 8vmin;
+}
+
+header > a {
+	position: absolute;
+	top: 2vmin;
+	right: 1vmin;
+	background-color: grey;
+	border: 5px solid white;
+	border-style: outset;
+	color: white;
+	font-size: 2.5vmin;
+	text-align: center;
+	width: 8vmin;
+	height: 2.5vmin;
+}
+
+/*
+** First sidebar 
+*/
+.sidebar-left{
+	position: absolute;
+	top: 30vmin;
+	width: 20vw;
+	height: 100%;
+	z-index: 0;
+	background-image: url("https://www.transparenttextures.com/patterns/cubes.png");
+	background-color: #006370;
+}
+
+.top-nav{
+	position: absolute;
+	width: auto;
+	top: 0.5vh;
+	right: 2vw;
+}
+
+.top-nav ul{
+	border-radius: 4px;
+	padding: 0.1vmin;
+	background-color: #006370;
+}
+
+.top-nav ul li a{
+	font-size: 0.75em;
+	width: 100%;
+	text-align: center;
+}
+
+
+nav {
+	width: 100%;
+	margin-top: 2vh;
+}
+
+nav > ul {
+	margin: 0%;
+	padding: 0%;
+	color: white;
+	font-size: 2vw;
+	list-style: none;
+	font-family: Brush Script MT, Brush Script Std, cursive;
+	letter-spacing: 0.8vw;
+}
+
+nav > ul > li{
+	margin: 0.5vh 0px;
+}
+nav a {
+	font-size: 1.8vw;
+	color: white;
+	width: 5vmin;
+}
+
+.submenu {
+	margin-left: 10%;
+	padding: 5px;
+	color: white;
+	list-style-type: none;
+}
+
+.sidebar-right{
+	position: absolute;
+	right: 0;
+	z-index: 0;
+	top: 30vmin;
+	width: 20vw;
+	height: 100%;
+	background-image: url("https://www.transparenttextures.com/patterns/cubes.png");
+	background-color: #006370;
+}
+
+#bandeau-co {
+	text-align: center;
+	width: 80%;
+	margin: auto;
+	height: 50vmin;
+	font-size: 3vmin;
+	box-shadow:  5px 5px 9px rgb(140,140,140);
+	border-style: inset;
+	margin-top: 5.5vmin;
+	background-image: url("https://www.transparenttextures.com/patterns/bedge-grunge.png");
+	background-color:  rgb(160,160,160); 
+}
+
+.co {
+	width: 100%;
+	height: 20%;
+	margin-top: 0vmin;
+	border: #2889A9 ;
+	background-color: rgb(135,135,135);
+	color: rgb(240,240,240);
+	text-align: center;
+	letter-spacing: 1vmin;
+	font-family: Brush Script MT, Brush Script Std, cursive;
+	font-size: 6vmin;
+}
+
+.cr {
+	-webkit-margin-before: 0em;
+    -webkit-margin-after: 0em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+	width: 100%;
+	height: 20%;
+	border: #2889A9 ;
+	background-color: rgb(135,135,135);
+	color: rgb(240, 240, 240);
+	text-align: center;
+	letter-spacing: 1vmin;
+	font-family: Brush Script MT, Brush Script Std, cursive;
+	font-size: 4vmin;
+}
+
+.login {
+	text-align: left;
+	color: #2889A9;
+	margin-left: 7vmin;
+	margin-bottom: 0vmin;
+	font-size: 160%;
+	font-family: Brush Script MT, Brush Script Std, cursive;
+}
+.passwd {
+	text-align: left;
+	color: #2889A9 ;
+	margin-left: 7vmin;
+	margin-bottom: 0vmin;
+	font-size: 160%;
+	font-family: Brush Script MT, Brush Script Std, cursive;
+}
+.log {
+	width: 60%;
+	height: 3vmin;
+	font-size: 50%;
+	text-align: left;
+	border: 3px solid rgb(140,140,140); 
+	border-style: inset;
+}
+
+.log1 {
+	width: 60%;
+	height: 3vmin;
+	font-size: 60%;
+	text-align: left;
+	color: grey;
+	border: 3px solid rgb(140,140,140); 
+	border-style: inset;
+}
+
+.sub {
+	width: 30%;
+	font-size: 50%;
+	font-family: Brush Script MT, Brush Script Std, cursive;
+}
+
+.create-acc {
+	margin: auto;
+	text-align: center;
+	font-size: 5vmin;
+	color: #2889A9; 
+	font-family: Brush Script MT, Brush Script Std, cursive;
+}
+
+.badlogin {
+	position: absolute;
+	font-family: Brush Script MT, Brush Script Std, cursive;
+	font-size: 2vmin;
+	margin-top: 29vmin;
+	margin-left: 35%;
+
+}
+
+.samelogin {
+	position: absolute;
+	font-family: Brush Script MT, Brush Script Std, cursive;
+	font-size: 2.5vmin;
+	margin-top: 27vmin;
+	margin-left: 44%;
+
+}
+
+/*
+** Label
+*/
+label{
+	vertical-align: middle;
+	line-height: 3vmin;
+	font-size: 2vmin;
+}
+label > input{
+
+}
+
+.content_for_layout{
+	z-index: -1000;
+	width: 55vw;
+	margin: auto;
+	margin-top: 3vh;
+	padding: 0;
+}
+
+/*
+** Articles List
+*/
+.article-list
+{
+	width: 50%;
+	margin: auto;
+}
+
+.article-list > div
+{
+	display: grid;
+	grid-template-columns: 13vmin 1fr;
+	grid-template-rows: 1fr 1fr 1fr 1fr;
+	margin-top: 1vmin;
+	padding: 2vmin;
+	border-top: 1px solid grey;
+	height: 150px;
+}
+.article-list > div > img
+{
+	max-width: 11vmin;
+	grid-column-start: 1;
+	grid-column-end: 1;
+	grid-row-start: 1;
+	grid-row-end: 4;
+	object-fit: contain;
+	/*overflow: hidden;*/
+}
+
+.article-list .desc
+{
+	grid-column-start: 2;
+	grid-row-start: 1;
+	grid-row-end: 2;
+	font-size: 1.8vmin;
+	font-weight: bold;
+}
+
+.article-list .provenance
+{
+	grid-column-start: 2;
+	grid-row-start: 3;
+	grid-row-end: 4;
+	font-style: italic;
+}
+
+/* MENU DEROULANt*/
+
+#menu {
+	position: absolute;
+	width: 23%;
+	top: 0;
+	height: 100%;
+	background-image: url("https://www.transparenttextures.com/patterns/cubes.png");
+	background-color: #006370;
+
+}
+
+#menu1 {
+	position: absolute;
+	width: 20%;
+	height: 165%;
+	margin-left: 78.8%;
+	background-image: url("https://www.transparenttextures.com/patterns/cubes.png");
+	background-color: #006370;
+}
+
+.info {
+	list-style-type: none;
+	color: #FFF;
+	font-size: 2.9vmin;
+	font-family: Brush Script MT, Brush Script Std, cursive;
+	letter-spacing: 0.8vmin;
+}
+
+.subm {
+	list-style-type: none; 
+	border: 1px solid dimgrey;
+	background-color: #2889A9;
+	color: white;
+	width: auto;
+	height: 20%;
+	margin-left: -11%;
+	margin-top: 1%;
+}
+
+.p {
+	margin-left: -2.5vmin;
+	text-align: left;
+	font-size: 2vmin;
+	overflow: hidden;
+}
+
+.adm {
+	position: absolute;
+	list-style-type: none;
+	color: white;
+	font-size: 3vmin;
+	margin-top: 60%;
+	margin-left: 10%;
+	font-family: Brush Script MT, Brush Script Std, cursive;
+	letter-spacing: 0.8vmin;
+	text-decoration: none;
+}
+.adm > a , .comm > a {
+	color: white;
+}
+
+a:link {
+	text-decoration: none;
+}
+
+/*
+** Add container
+*/
+.container{
+	position: absolute;
+	width: 50vmin;
+	height: 50vmin;
+	margin: auto;
+	background-color: blue;
+}
+
+
+/*
+** Error
+*/
+.success{
+	width: 90%;
+	text-align: center;
+	border-radius: 5px;
+	margin: auto;
+	background-color: green;
+	color: white;
+	font-weight: bolder;
+	padding: 0.5vmin;
+	margin-bottom: 1.5vmin;
+}
+
+.error{
+	width: 90%;
+	text-align: center;
+	border-radius: 5px;
+	margin: auto;
+	background-color: red;
+	color: white;
+	font-weight: bolder;
+	padding: 0.5vmin;
+	margin-bottom: 1.5vmin;
+}
+
+
+.red{
+	color : red;
+}
+
+.text-right{
+	text-align: right;
+}
+
+.full{
+	width: 100%;
+}
+
+.full-row{
+	grid-column-start: 1;
+	grid-column-end: 4;
+}
+
+.text-center{
+	text-align: center;
+}
+
+.bold{
+	font-weight: bolder;
+}
+
+.box{
+	border-radius: 5px;
+	background-color: white;
+}
+
+.box-grid div{
+	display: grid;
+	grid-template-rows: 1fr 1fr 1fr 1fr;
+	grid-template-columns: 1fr 2fr 1fr;
+	padding: 20px;
+}
+
+.box div:not(:first-child)
+{
+	border-top: 1px solid grey;
+}
+
+.box-grid img{
+	grid-column-start: 1;
+	grid-row-start: 1;
+	grid-row-end: 4;
+}
+
+.addcart{
+	text-decoration: none;
+	text-align: center;
+	color: black;
+	background-color: white;
+	line-height: 3em;
+	grid-column-start: 3;
+	grid-row-start: 3;
+	border-radius: 5px;
+	font-size: 1.3vmin;
+	border: 1px solid grey;
+	-webkit-box-shadow: 0px 0px 22px -4px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 0px 22px -4px rgba(0,0,0,0.75);
+	box-shadow: 0px 0px 22px -4px rgba(0,0,0,0.75);
+}
+.panier{
+	color: black;
+	margin-top: 40px;
+}
+.panier h3{
+	text-decoration: underline;
+	text-align: center;
+}
+.panier	.underline{
+	text-decoration: underline;
+}
+.panier ul{
+	width: 80%;
+	-webkit-margin-before: 1em;
+	-webkit-margin-after: 1em;
+	-webkit-margin-start: 0px;
+	-webkit-margin-end: 0px;
+	-webkit-padding-start: 0px;
+	margin:auto;
+	background-color: white;
+	border-radius: 5px;
+	
+	list-style: none;
+}
+.panier li{
+	padding: 10px;
+}
+.panier li:not(:first-child){
+	border-top:1px solid black;
+}
+.panier img{
+	width: 16px;
+	margin-left: 11%;
+}
